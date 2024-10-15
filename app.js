@@ -33,7 +33,7 @@ const generador = generarPersonajes([1, 2, 3, 4, 5]);
 document.getElementById('rango1').addEventListener('mouseenter', () => {
   for (let i = 1; i <= 5; i++) {
 
-    generador.next().value.then(personaje => generador.next(personaje));
+    generador.next()
   }
 });
 
